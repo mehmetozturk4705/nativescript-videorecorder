@@ -1,5 +1,5 @@
-import * as fs from '@nativescript/core/file-system';
-import { layout } from '@nativescript/core/ui/core/view';
+import * as fs from 'tns-core-modules/file-system';
+import { layout } from 'tns-core-modules/ui/core/view';
 import '../async-await';
 import {
     AdvancedVideoViewBase,
@@ -13,7 +13,7 @@ import {
 
 export * from './advanced-video-view.common';
 
-import { fromObject } from '@nativescript/core/data/observable';
+import { fromObject } from 'tns-core-modules/data/observable';
 
 export enum NativeOrientation {
     Unknown,

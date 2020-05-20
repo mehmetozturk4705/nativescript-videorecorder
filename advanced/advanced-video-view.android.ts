@@ -10,10 +10,10 @@ import {
     saveToGalleryProperty,
     torchProperty
 } from './advanced-video-view.common';
-import { releaseNativeObject } from '@nativescript/core/utils/utils';
-import { fromObject } from '@nativescript/core/data/observable';
+import { releaseNativeObject } from 'tns-core-modules/utils/utils';
+import { fromObject } from 'tns-core-modules/data/observable';
 // declare const com;
-import * as app from '@nativescript/core/application';
+import * as app from 'tns-core-modules/application';
 import * as permissions from 'nativescript-permissions';
 
 declare var co: any, androidx: any;

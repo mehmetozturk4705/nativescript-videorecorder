@@ -1,8 +1,8 @@
 import * as permissions from 'nativescript-permissions';
-import * as app from '@nativescript/core/application';
-import * as platform from '@nativescript/core/platform';
-import * as utils from '@nativescript/core/utils/utils';
-import * as types from '@nativescript/core/utils/types';
+import * as app from 'tns-core-modules/application';
+import * as platform from 'tns-core-modules/core/platform';
+import * as utils from 'tns-core-modules/utils/utils';
+import * as types from 'tns-core-modules/utils/types';
 import './async-await';
 import { CameraPosition, Options, RecordResult, VideoRecorderCommon } from './videorecorder.common';
 

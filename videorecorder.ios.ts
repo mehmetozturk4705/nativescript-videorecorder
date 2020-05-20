@@ -1,5 +1,5 @@
-import * as fs from '@nativescript/core/file-system';
-import * as types from '@nativescript/core/utils/types';
+import * as fs from 'tns-core-modules/file-system';
+import * as types from 'tns-core-modules/utils/types';
 import './async-await';
 
 import {
@@ -10,7 +10,7 @@ import {
     VideoFormatType,
     VideoRecorderCommon,
 } from './videorecorder.common';
-import { Frame } from '@nativescript/core/ui/frame';
+import { Frame } from 'tns-core-modules/ui/frame';
 
 export * from './videorecorder.common';
 

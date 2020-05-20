@@ -1,4 +1,4 @@
-import { Property, View } from '@nativescript/core/ui/core/view';
+import { Property, View } from 'tns-core-modules/ui/core/view';
 export declare enum CameraPosition {
     BACK = "back",
     FRONT = "front"
